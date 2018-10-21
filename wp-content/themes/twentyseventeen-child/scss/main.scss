@@ -1,0 +1,36 @@
+/*!
+ Theme Name:   Twenty Seventeen Child
+ Description:  Twenty Seventeen Child Theme
+ Author:       Regulo Leonardi
+ Template:     twentyseventeen
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  twentyseventeen
+*/
+
+@import "_config/main.scss";
+@import "_tools/main.scss";
+
+.page{
+  .panel-content{
+    .entry-title {
+      color: $config-color__neutral-grey--02;
+
+      @include t-mq($from: $config-breakpoint--sm) {
+        color: $config-color__brand-secondary;
+      }
+      @include t-mq($from: $config-breakpoint--md) {
+        color: $config-color__brand-primary;
+      }
+      @include t-mq($from: $config-breakpoint--lg) {
+        color: $config-color__brand-secondary;
+      }
+      @include t-mq($from: $config-breakpoint--xl) {
+        color: $config-color__brand-primary;
+      }
+    }
+  }
+}
+
+
