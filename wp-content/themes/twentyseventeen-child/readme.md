@@ -1,4 +1,4 @@
-#Wordpress Blank
+#Wordpress Blank Child Theme
 
 ##Compile styles
 
